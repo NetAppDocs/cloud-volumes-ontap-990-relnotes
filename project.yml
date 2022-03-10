@@ -1,7 +1,74 @@
 settings:
-  name: "Product Name"
+  name: Cloud Volumes ONTAP 9.9.0 release notes
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-sidebar: 
+sidebar:
+  entries:
+    - title: Back to Cloud Manager documentation
+      url: https://docs.netapp.com/us-en/cloud-manager-family
+    - title: Cloud Volumes ONTAP 9.9.0 Release Notes
+      url: /index.html
+    - title: What's new
+      url: /reference-new-990.html
+    - title: Licensing overview
+      url: /concept-licensing-990.html
+    - title: Supported configurations
+      entries:
+        - title: AWS
+          url: /reference-configs-aws-990.html
+        - title: Azure
+          url: /reference-configs-azure-990.html
+        - title: GCP
+          url: /reference-configs-gcp-990.html
+    - title: Storage limits
+      entries:
+        - title: AWS
+          url: /reference-limits-aws-990.html
+        - title: Azure
+          url: /reference-limits-azure-990.html
+        - title: GCP
+          url: /reference-limits-gcp-990.html
+    - title: Known issues
+      url: /reference-issues-990.html
+    - title: Known limitations
+      entries:
+        - title: Common limitations
+          url: /reference-limitations-990.html
+        - title: Limitations in AWS
+          url: /reference-limitations-aws-990.html
+        - title: Limitations in Azure
+          url: /reference-limitations-azure-990.html
+        - title: Limitations in GCP
+          url: /reference-limitations-gcp-990.html
+    - title: Cloud provider integrations
+      url: /reference-provider-integrations-990.html
+    - title: Legal notices
+      url: /reference-legal-notices.html
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+    - title: tile name
+      links:
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Community
+          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+        - title: Cloud Central blog
+          url: https://cloud.netapp.com/blog
+        - title: Cloud webinars
+          url: https://cloud.netapp.com/events
