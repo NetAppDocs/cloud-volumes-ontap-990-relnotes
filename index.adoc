@@ -6,7 +6,7 @@ lead: These release notes describe new features, limitations, and known issues f
 summary: These release notes describe new features, limitations, and known issues for Cloud Volumes ONTAP 9.9.0.
 ---
 
-= Cloud Volumes ONTAP Release Notes
+= Cloud Volumes ONTAP 9.9.0 Release Notes
 :hardbreaks:
 :nofooter:
 :icons: font
