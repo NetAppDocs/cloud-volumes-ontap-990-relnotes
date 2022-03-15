@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: reference-new-990.html
+permalink: reference-new.html
 keywords: what's new, new, features, release notes, enhancements
 summary: Cloud Volumes ONTAP 9.9.0 includes several new features and enhancements.
 ---
@@ -21,7 +21,7 @@ Additional features and enhancements are also introduced in the latest versions 
 
 In AWS, you can now configure up to 24 storage VMs (SVMs) for disaster recovery (DR). The previous limit was 12 storage VMs used for DR.
 
-link:reference-limits-aws-990.html#storage-vm-limits[Learn more about storage VM limits].
+link:reference-limits-aws.html#storage-vm-limits[Learn more about storage VM limits].
 
 == Latest updates (12 Apr 2021)
 
@@ -67,7 +67,7 @@ Cloud Volumes ONTAP is now supported with the following Amazon EC2 instance type
 
 Learn more about https://aws.amazon.com/ec2/instance-types/m5/[M5a instances^] and https://aws.amazon.com/ec2/instance-types/c5/[C5a instances^].
 
-link:reference-configs-aws-990.html[View supported configurations in AWS].
+link:reference-configs-aws.html[View supported configurations in AWS].
 
 === Support for 24 storage VMs in Azure
 
@@ -77,7 +77,7 @@ An add-on license is required for each additional _data-serving_ storage VM beyo
 
 Storage VMs that you configure for disaster recovery (DR) don't require an add-on license (they are free of charge), but they do count against the storage VM limit.
 
-link:reference-limits-azure-990.html#storage-vm-limits[Learn more about storage VM limits in Azure].
+link:reference-limits-azure.html#storage-vm-limits[Learn more about storage VM limits in Azure].
 
 https://docs.netapp.com/us-en/occm/task_managing_svms_azure.html[Learn how to create data-serving storage VMs for Cloud Volumes ONTAP in Azure^].
 
