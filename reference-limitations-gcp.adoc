@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: reference-limitations-gcp-990.html
+permalink: reference-limitations-gcp.html
 keywords: limitations, google cloud platform, gcp
 summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 ---
 
-= Known limitations for Cloud Volumes ONTAP 9.9.0 in GCP
+= Known limitations in Google Cloud
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,4 +13,4 @@ summary: Known limitations identify platforms, devices, or functions that are no
 :imagesdir: ./media/
 
 [.lead]
-There are no known limitations specific to Cloud Volumes ONTAP in Google Cloud Platform. See the link:reference-limitations-990.html[Limitations for Cloud Volumes ONTAP 9.9.0 in all cloud providers].
+There are no known limitations specific to Cloud Volumes ONTAP in Google Cloud Platform. See the link:reference-limitations.html[Limitations in all cloud providers].
