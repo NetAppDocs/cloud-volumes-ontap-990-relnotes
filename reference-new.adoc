@@ -15,7 +15,7 @@ summary: Cloud Volumes ONTAP 9.9.0 includes several new features and enhancement
 [.lead]
 Cloud Volumes ONTAP 9.9.0 includes several new features and enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of Cloud Manager. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for details.
+Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
 
 == c4, m4, and r4 instances no longer supported (28 October 2022)
 
@@ -43,7 +43,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-planning-yo
 
 * Cloud Volumes ONTAP no longer supports Cold HDD (sc1) disks.
 
-These EBS disk changes were introduced as part of Cloud Manager 3.9.5.
+These EBS disk changes were introduced as part of BlueXP 3.9.5.
 
 *Azure updates*
 
@@ -89,23 +89,23 @@ link:reference-limits-azure.html#storage-vm-limits[Learn more about storage VM l
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-svms-azure.html[Learn how to create data-serving storage VMs for Cloud Volumes ONTAP in Azure^].
 
-== Required version of the Cloud Manager Connector
+== Required version of the BlueXP Connector
 
-The Cloud Manager Connector must be running version 3.9.4 or later to deploy new Cloud Volumes ONTAP 9.9.0 systems and to upgrade existing systems to 9.9.0.
+The BlueXP Connector must be running version 3.9.4 or later to deploy new Cloud Volumes ONTAP 9.9.0 systems and to upgrade existing systems to 9.9.0.
 
-== Changes introduced with Cloud Manager 3.9.4
+== Changes introduced with version 3.9.4 of the Connector
 
-The Cloud Manager 3.9.4 release includes a few enhancements for the management of Cloud Volumes ONTAP, including enhancements to AWS KMS support, shared VPC support in Google Cloud, and reduced IPs in Google Cloud.
+The 3.9.4 release of the Connector includes a few enhancements for the management of Cloud Volumes ONTAP, including enhancements to AWS KMS support, shared VPC support in Google Cloud, and reduced IPs in Google Cloud.
 
-Go to the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[Cloud Manager Release Notes^] for more details about the 3.9.4 release.
+Go to the https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for more details about the 3.9.4 release.
 
 == Upgrade notes
 
-* Upgrades of Cloud Volumes ONTAP must be completed from Cloud Manager. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
+* Upgrades of Cloud Volumes ONTAP must be completed from BlueXP. You should not upgrade Cloud Volumes ONTAP by using System Manager or the CLI. Doing so can impact system stability.
 
-* You can upgrade to Cloud Volumes ONTAP 9.9.0 from the 9.8 release. Cloud Manager will prompt you to upgrade your existing Cloud Volumes ONTAP 9.8 systems to the 9.9.0 release.
+* You can upgrade to Cloud Volumes ONTAP 9.9.0 from the 9.8 release. BlueXP will prompt you to upgrade your existing Cloud Volumes ONTAP 9.8 systems to the 9.9.0 release.
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when Cloud Manager notifies you^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html[Learn how to upgrade when BlueXP notifies you^].
 
 * The upgrade of a single node system takes the system offline for up to 25 minutes, during which I/O is interrupted.
 
